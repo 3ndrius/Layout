@@ -1,0 +1,49 @@
+
+@import 'colors.scss';
+@import 'helpers.scss';
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 80px;
+    background-color: $main-clr;
+    border-bottom: 1px solid $main-clr-02;  
+}
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+    height: 80px;
+    @include d-flex;
+    justify-content: space-between;
+    
+
+    &--main{
+        flex-wrap: wrap;
+        max-height: 100%;
+    }
+}
+
+.main-card{
+    height: 235px;
+    width: 200px;
+    background-color: $main-clr;
+    border:1px solid $main-clr-02;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+   
+    &__img{
+        width: 100%;
+        height: auto;
+        padding:34px 0;
+        object-fit: cover;
+    }
+    &__btn-wrap{
+        @include d-flex;
+        justify-content: center;
+
+    }
+}

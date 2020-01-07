@@ -1,0 +1,13 @@
+.btn{
+    background: $second-clr;
+    height: 35px;
+    width:100px;
+    border:1px solid rgba(124, 124, 124, 0.336);
+    color:$light-clr;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@mixin d-flex {
+    display: flex;
+    align-items: center;
+}

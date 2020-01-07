@@ -1,0 +1,14 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Task rec",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "3ndrius",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.24.2"
+  }
+}
